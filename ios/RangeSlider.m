@@ -411,7 +411,7 @@ UIFont *labelFont;
         }
     }
 
-    if ([_labelStyle isEqualToString:NONE] || _activeThumb == THUMB_NONE) {
+    if ([_labelStyle isEqualToString:NONE] /* for sticky bubbles|| _activeThumb == THUMB_NONE*/) {
         return;
     }
 
